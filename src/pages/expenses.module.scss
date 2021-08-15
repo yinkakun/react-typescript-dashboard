@@ -1,0 +1,236 @@
+.expenses {
+  flex-grow: 1;
+  background-color: #101010;
+  padding: 20px;
+  padding-left: 0;
+}
+
+.expensesCard {
+  height: 100%;
+  background-color: #ffffff;
+  border-radius: 30px;
+  display: flex;
+}
+
+.expensesOverview {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 60px;
+  padding-bottom: 30px;
+  flex: 0 0 65%;
+  overflow-y: auto;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+}
+
+.expensesHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.expensesTitle {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.666667px;
+  color: #262a41;
+}
+
+.expensesActions {
+  display: flex;
+  align-items: center;
+}
+
+.expensesUsers {
+  display: flex;
+  align-items: center;
+
+  .avatar {
+    position: relative;
+
+    &:nth-child(1) {
+      z-index: 3;
+    }
+    &:nth-child(2) {
+      z-index: 2;
+    }
+    &:nth-child(3) {
+      z-index: 1;
+    }
+  }
+
+  .avatar:not(:last-child) {
+    margin-right: -10px;
+  }
+}
+
+.expensesAddButton {
+  margin-left: 10px;
+}
+
+.expensesDate {
+  font-size: 16px;
+  line-height: 24px;
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+.expensesChartContainer {
+  margin-top: 50px;
+  height: 80px;
+}
+
+.expensesListContainer {
+  margin-top: 50px;
+}
+
+.expensesListHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 0.5px solid #dedede;
+  align-items: center;
+  padding-bottom: 7.5px;
+}
+
+.expensesListItem {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 25px;
+}
+
+.expensesDetails {
+  display: flex;
+}
+
+.expensesListItemIcon {
+  background-color: #32a7e2;
+  border-radius: 50%;
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 17px;
+}
+
+.expensesListTitle {
+  font-size: 18px;
+  line-height: 30px;
+}
+
+.expensesItemName {
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.expensesItemTimeAndLocation {
+  font-size: 14px;
+  line-height: 21px;
+  opacity: 0.5;
+  color: #404852;
+  letter-spacing: 0.5px;
+}
+
+.expensesItemPrice {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.moneyOverview {
+  background-color: #f9fafc;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 60px;
+  overflow-y: auto;
+  padding-bottom: 30px;
+
+  &::-webkit-scrollbar {
+    width: 10px;
+  }
+}
+
+.moneyOverviewTitle {
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 500;
+}
+
+.spendCategory {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  font-size: 13px;
+
+  &:not(:first-child) {
+    margin-top: 30px;
+  }
+}
+
+.spendCategoryBar {
+  height: 5px;
+  width: 100%;
+  background-color: #eceff5;
+  border-radius: 5px;
+  margin-top: 8px;
+  position: relative;
+}
+
+.spendCategoryColorBar {
+  background-color: #31ba96;
+  border-radius: 5px;
+  height: 5px;
+  width: 1%;
+  position: absolute;
+}
+
+.moneyTips {
+  margin-top: 100px;
+  background-color: #edf0f6;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  padding: 25px;
+}
+
+.moneyTipsIllustrations {
+  display: flex;
+  justify-content: space-between;
+  margin-top: -25%;
+}
+
+.moneyTipsTitle {
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+.moneyTipsBody {
+  font-size: 12px;
+  opacity: 0.7;
+  margin-top: 5px;
+}
+
+.moneyTipsButton {
+  background: #101010;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 13px;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-align: center;
+  border-radius: 8px;
+  padding: 13px;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+  letter-spacing: 1.5px;
+}
