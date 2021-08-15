@@ -1847,6 +1847,13 @@
   dependencies:
     "@types/react" "*"
 
+"@types/react-kawaii@^0.17.0":
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/@types/react-kawaii/-/react-kawaii-0.17.0.tgz#c4670cf8cd0d54d4116c02433702d25d68750b9b"
+  integrity sha512-cKFbubP4QBx36fK/R+K7A/oqtE32QnuZ0Ek//B4ex8ADwXwu9+dfrfCWwYi3UNtHQmPgQ5wHQjTS5MsGNyuG6g==
+  dependencies:
+    "@types/react" "*"
+
 "@types/react-router-dom@^5.1.8":
   version "5.1.8"
   resolved "https://registry.yarnpkg.com/@types/react-router-dom/-/react-router-dom-5.1.8.tgz#bf3e1c8149b3d62eaa206d58599de82df0241192"
@@ -9629,6 +9636,13 @@ react-is@^17.0.1:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-17.0.1.tgz#5b3531bd76a645a4c9fb6e693ed36419e3301339"
   integrity sha512-NAnt2iGDXohE5LI7uBnLnqvLQMtzhkiAOLXTmv+qnF9Ky7xAPcX8Up/xWIhxvLVGJvuLiNc4xQLtuqDRzb4fSA==
+
+react-kawaii@^0.17.0:
+  version "0.17.0"
+  resolved "https://registry.yarnpkg.com/react-kawaii/-/react-kawaii-0.17.0.tgz#18ba11979c32e5932ffc78fb4042898b3a0d4a64"
+  integrity sha512-BP2FCZC5IH2P3bXBAdoikMapRQEBu4ncLW5P2TKZjDYfsaq3kiSbU8DXqIH7UDWpAdI5ofhWJ62F6LqKD5TLFQ==
+  dependencies:
+    prop-types "^15.6.2"
 
 react-lifecycles-compat@^3.0.4:
   version "3.0.4"
