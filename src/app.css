@@ -2,4 +2,15 @@
 
 html {
   font-family: 'Poppins', sans-serif;
+  height: 100%;
+}
+
+body,
+#root {
+  height: 100%;
+}
+
+.app-container {
+  height: 100%;
+  display: flex;
 }
